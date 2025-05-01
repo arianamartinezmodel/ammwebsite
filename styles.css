@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Fuente1';
-    src: url('fonts/NgeticModern-Regular.woff2') format('opentype');
+    src: url('fonts/NgeticModern-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
