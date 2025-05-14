@@ -44,14 +44,23 @@
                     <h1 class="TextGold1">Contact Me</h1>
                     <div class="form-container">
                         <form action="https://formsubmit.co/arimartinez.prof@gmail.com" method="POST">
-                            <input type="text" placeholder="Name" class="form-input" required>
-                            <input type="email" placeholder="Email" class="form-input" required>
-                            <textarea placeholder="Message" class="form-textarea" required></textarea>
+  
+                            <input type="text" name="name" placeholder="Name" class="form-input" required>
+                            
+                            <input type="email" name="email" placeholder="Email" class="form-input" required>
+                            
+                            <textarea name="message" placeholder="Message" class="form-textarea" required></textarea>
+                            
                             <button type="submit" class="form-button">Send</button>
-
-                            <!-- Evita SPAM (Opcional) -->
+                          
+                            <!-- Evita SPAM -->
                             <input type="hidden" name="_captcha" value="false">
-                        </form>
+                            
+                            <!-- Redirección tras enviar -->
+                            <input type="hidden" name="_next" value="https://tusitio.com/gracias.html">
+                          
+                          </form>
+                          
                     </div>
 
                 </div>
