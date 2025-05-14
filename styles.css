@@ -511,6 +511,7 @@ button{
     width: 50%;
     display: flex;
     justify-content: space-between;
+    justify-content: center;
     margin-bottom: 80px;
 }
 .Footerh1{
@@ -677,6 +678,9 @@ button{
   }
 
   .position1 {
+    object-position: 0% 15%;
+  }
+  .position2 {
     object-position: top;
   }
   
